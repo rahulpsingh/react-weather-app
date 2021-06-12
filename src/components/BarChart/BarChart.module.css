@@ -1,0 +1,61 @@
+.barChartWrapper {
+  position: relative;
+  width: 100%;
+  height: 440px;
+}
+
+.svg {
+  width: 100%;
+  height: 100%;
+}
+
+.tooltipWrapper {
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  font-size: inherit;
+  border-radius: 2px;
+  padding: 12px;
+  visibility: hidden;
+  position: absolute;
+  z-index: 999;
+}
+
+.point {
+  align-items: center;
+}
+
+.pointWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-right: 8px;
+}
+
+.pointer {
+  height: 12px;
+  width: 12px;
+  margin-right: 8px;
+  display: none;
+}
+
+.axis path,
+.axis line {
+  stroke: gray;
+}
+
+.axis text {
+  fill: grey;
+  font-family: 'Inter';
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .barChartWrapper {
+    height: 300px;
+  }
+  .axisBottom text {
+    transform: rotate(315deg) translate(-32px, -8px);
+  }
+}

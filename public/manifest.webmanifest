@@ -1,0 +1,31 @@
+{
+    "theme_color": "#f50057",
+    "background_color": "#FAFAFA",
+    "display": "standalone",
+    "scope": "/react-weather-app",
+    "start_url": "/react-weather-app",
+    "name": "React Weather App",
+    "short_name": "WeatherApp",
+    "icons": [
+        {
+            "src": "/react-weather-app/icon192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/react-weather-app/icon256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/react-weather-app/icon384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/react-weather-app/icon512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
